@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="vbLayoutSon" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="293.0" prefWidth="505.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox prefHeight="10.0" prefWidth="505.0">
+         <children>
+            <Label fx:id="lTitulo" prefHeight="23.0" prefWidth="93.0" text="Descarga" textFill="WHITE">
+               <HBox.margin>
+                  <Insets bottom="10.0" left="10.0" right="2.0" top="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Consolas Bold" size="20.0" />
+               </font>
+               <effect>
+                  <DropShadow height="12.1" radius="5.5525" spread="0.66" width="12.11" />
+               </effect>
+            </Label>
+            <Label fx:id="lNumeroDescarga" prefHeight="35.0" prefWidth="47.0" text="2" textFill="WHITE">
+               <HBox.margin>
+                  <Insets bottom="10.0" left="5.0" right="10.0" top="7.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Consolas Bold" size="24.0" />
+               </font>
+               <effect>
+                  <DropShadow height="12.1" radius="5.5525" spread="0.43" width="12.11">
+                     <input>
+                        <DropShadow />
+                     </input>
+                  </DropShadow>
+               </effect>
+            </Label>
+         </children>
+      </HBox>
+      <TextField fx:id="tfDescarga" prefHeight="31.0" prefWidth="500.0">
+         <VBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </VBox.margin>
+         <effect>
+            <DropShadow />
+         </effect>
+      </TextField>
+      <HBox prefHeight="53.0" prefWidth="505.0">
+         <children>
+            <Button fx:id="btStart" mnemonicParsing="false" onAction="#start" prefHeight="28.0" prefWidth="66.0" style="-fx-background-color: #5D53F7;" text="Start" textFill="WHITE">
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+               <effect>
+                  <DropShadow>
+                     <input>
+                        <InnerShadow />
+                     </input>
+                  </DropShadow>
+               </effect>
+            </Button>
+            <Button fx:id="btStop" mnemonicParsing="false" onAction="#stop" prefHeight="28.0" prefWidth="66.0" style="-fx-background-color: #5D53F7;" text="Stop" textFill="WHITE">
+               <HBox.margin>
+                  <Insets left="20.0" top="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+               <effect>
+                  <DropShadow>
+                     <input>
+                        <InnerShadow />
+                     </input>
+                  </DropShadow>
+               </effect>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#erase" prefHeight="28.0" prefWidth="66.0" style="-fx-background-color: #EE465A;" text="Erase" textFill="WHITE">
+               <HBox.margin>
+                  <Insets left="20.0" top="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+               <effect>
+                  <DropShadow>
+                     <input>
+                        <InnerShadow />
+                     </input>
+                  </DropShadow>
+               </effect>
+            </Button>
+            <CheckBox fx:id="chbEligeRuta" mnemonicParsing="false" prefHeight="16.0" prefWidth="201.0" text="Elegir Ruta de Descarga">
+               <HBox.margin>
+                  <Insets left="50.0" top="12.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Consolas Bold Italic" size="13.0" />
+               </font>
+            </CheckBox>
+         </children>
+      </HBox>
+      <Label fx:id="lFileName" prefHeight="14.0" prefWidth="493.0">
+         <VBox.margin>
+            <Insets left="10.0" right="30.0" top="10.0" />
+         </VBox.margin>
+         <font>
+            <Font name="Consolas Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfFileName" prefHeight="25.0" prefWidth="389.0">
+         <VBox.margin>
+            <Insets bottom="10.0" left="10.0" right="20.0" top="10.0" />
+         </VBox.margin>
+         <effect>
+            <DropShadow />
+         </effect>
+      </TextField>
+      <ProgressBar fx:id="pbBarra" prefHeight="26.0" prefWidth="430.0" progress="0.0">
+         <VBox.margin>
+            <Insets bottom="10.0" left="10.0" right="25.0" top="10.0" />
+         </VBox.margin>
+      </ProgressBar>
+      <Label fx:id="lProgress" prefHeight="23.0" prefWidth="429.0">
+         <VBox.margin>
+            <Insets bottom="5.0" left="10.0" />
+         </VBox.margin>
+      </Label>
+      <Line endX="466.8626708984375" endY="10.878704071044922" startX="-38.76354217529297" startY="9.626195907592773" />
+   </children>
+</VBox>

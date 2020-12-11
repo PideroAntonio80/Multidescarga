@@ -1,0 +1,629 @@
+15:29:06.783 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.211.tar.xz creada
+15:29:27.177 [Thread-3] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.211.tar.xz iniciada
+15:29:35.042 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.211.tar.xz detenida
+15:29:35.043 [Thread-3] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.211.tar.xz cancelada
+17:43:32.671 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.211.tar.xz creada
+17:43:51.125 [Thread-3] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.211.tar.xz iniciada
+17:44:14.574 [Thread-3] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.211.tar.xz finalizada
+17:44:35.118 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.211.tar.xz detenida
+17:44:48.151 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.211.tar.xz creada
+17:44:59.467 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.211.tar.xz creada
+17:45:34.001 [Thread-4] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.211.tar.xz iniciada
+17:45:50.881 [Thread-4] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.211.tar.xz finalizada
+17:46:29.782 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga gnfgn creada
+17:46:33.195 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga fghjfgj creada
+17:46:58.497 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.211.tar.xz creada
+17:47:14.359 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.211.tar.xz creada
+17:47:46.607 [Thread-5] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.211.tar.xz iniciada
+17:48:02.964 [Thread-5] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.211.tar.xz finalizada
+17:48:29.170 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga gxfghf creada
+17:48:31.170 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga ghshs creada
+17:48:32.949 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga hgfdhsfd creada
+17:48:34.069 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga jhnfgfg creada
+17:48:35.081 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga fgnjfgnj creada
+17:48:36.067 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga fgnmfgnj creada
+17:48:56.748 [JavaFX Application Thread] ERROR com.sanvalero.multidescarga.DownloaderController - URL mal formada
+java.net.MalformedURLException: no protocol: gxfghf
+	at com.sanvalero.multidescarga.DownloaderController.start(DownloaderController.java:112) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76) ~[javafx-base-11.0.2-win.jar:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83) ~[javafx-fxml-14-win.jar:?]
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1784) ~[javafx-fxml-14-win.jar:?]
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1670) ~[javafx-fxml-14-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx-base-11.0.2-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-11.0.2-win.jar:?]
+	at javafx.scene.Node.fireEvent(Node.java:8885) ~[javafx-graphics-14-win.jar:?]
+	at javafx.scene.control.Button.fire(Button.java:203) ~[javafx-controls-14-win.jar:?]
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:206) ~[javafx-controls-14-win.jar:?]
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[javafx-controls-14-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:218) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx-base-11.0.2-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-11.0.2-win.jar:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3890) ~[javafx-graphics-14-win.jar:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1885) ~[javafx-graphics-14-win.jar:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2618) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299) ~[javafx-graphics-14-win.jar:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:556) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:942) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174) ~[javafx-graphics-14-win.jar:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+17:49:12.545 [JavaFX Application Thread] ERROR com.sanvalero.multidescarga.DownloaderController - URL mal formada
+java.net.MalformedURLException: no protocol: jhnfgfg
+	at com.sanvalero.multidescarga.DownloaderController.start(DownloaderController.java:112) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76) ~[javafx-base-11.0.2-win.jar:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83) ~[javafx-fxml-14-win.jar:?]
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1784) ~[javafx-fxml-14-win.jar:?]
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1670) ~[javafx-fxml-14-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx-base-11.0.2-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-11.0.2-win.jar:?]
+	at javafx.scene.Node.fireEvent(Node.java:8885) ~[javafx-graphics-14-win.jar:?]
+	at javafx.scene.control.Button.fire(Button.java:203) ~[javafx-controls-14-win.jar:?]
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:206) ~[javafx-controls-14-win.jar:?]
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[javafx-controls-14-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:218) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx-base-11.0.2-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-11.0.2-win.jar:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3890) ~[javafx-graphics-14-win.jar:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1885) ~[javafx-graphics-14-win.jar:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2618) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299) ~[javafx-graphics-14-win.jar:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:556) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:942) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174) ~[javafx-graphics-14-win.jar:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+19:08:39.848 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Aplicación abierta
+19:08:55.597 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.81.tar.xz creada
+19:08:55.618 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.211.tar.xz creada
+19:08:55.638 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.247.tar.xz creada
+19:09:21.103 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.81.tar.xz iniciada
+19:09:21.107 [Thread-3] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.81.tar.xz iniciada
+19:09:30.619 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.211.tar.xz iniciada
+19:09:30.621 [Thread-4] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.211.tar.xz iniciada
+19:09:41.931 [Thread-3] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.81.tar.xz finalizada
+19:09:45.612 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.247.tar.xz iniciada
+19:09:45.613 [Thread-5] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.247.tar.xz iniciada
+19:09:54.726 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas son detenidas
+19:09:54.729 [Thread-5] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.4.247.tar.xz cancelada
+19:09:54.733 [Thread-4] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.211.tar.xz cancelada
+19:10:01.097 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas son eliminadas
+19:23:48.673 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Aplicación abierta
+19:24:30.790 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.162.tar.xz creada
+19:25:37.864 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.162.tar.xz iniciada
+19:25:37.867 [Thread-3] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.162.tar.xz iniciada
+19:25:55.378 [Thread-3] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.19.162.tar.xz finalizada
+19:26:08.573 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas son detenidas
+19:26:09.060 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas son eliminadas
+19:26:58.800 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.9.12.tar.xz creada
+19:27:08.885 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.9.12.tar.xz iniciada
+19:27:08.886 [Thread-4] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.9.12.tar.xz iniciada
+19:27:27.345 [Thread-4] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.9.12.tar.xz finalizada
+19:29:17.964 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Aplicación abierta
+19:29:34.320 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.81.tar.xz creada
+19:29:43.012 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.81.tar.xz iniciada
+19:29:43.016 [Thread-3] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.81.tar.xz iniciada
+19:30:00.848 [Thread-3] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.81.tar.xz finalizada
+21:40:35.933 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Aplicación abierta
+21:42:22.359 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga fqf creada
+21:42:27.198 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga fqfrf creada
+21:42:34.206 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga qfffq creada
+11:36:41.771 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Aplicacion abierta
+11:36:46.095 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga fdfg creada
+11:37:17.142 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Aplicacion abierta
+11:37:28.829 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga gdfgege creada
+11:37:30.803 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga shstht creada
+11:37:35.526 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga hrsthrt creada
+11:37:42.766 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+11:37:42.767 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+11:37:42.767 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+11:37:42.767 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas son detenidas
+11:37:44.763 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas son eliminadas
+11:37:51.209 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Configurada ruta de descarga
+11:38:32.926 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Aplicacion abierta
+11:38:41.533 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga hsdhg creada
+11:38:48.086 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga djdhd creada
+11:38:54.581 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Configurada ruta de descarga
+11:39:14.393 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga fgxhg creada
+11:39:52.535 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga fgxhg iniciada
+11:39:52.538 [JavaFX Application Thread] ERROR com.sanvalero.multidescarga.DownloaderController - URL mal formada
+java.net.MalformedURLException: no protocol: fgxhg
+	at com.sanvalero.multidescarga.DownloaderController.start(DownloaderController.java:111) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76) ~[javafx-base-11.0.2-win.jar:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83) ~[javafx-fxml-14-win.jar:?]
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1784) ~[javafx-fxml-14-win.jar:?]
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1670) ~[javafx-fxml-14-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx-base-11.0.2-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-11.0.2-win.jar:?]
+	at javafx.scene.Node.fireEvent(Node.java:8885) ~[javafx-graphics-14-win.jar:?]
+	at javafx.scene.control.Button.fire(Button.java:203) ~[javafx-controls-14-win.jar:?]
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:206) ~[javafx-controls-14-win.jar:?]
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[javafx-controls-14-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:218) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx-base-11.0.2-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-11.0.2-win.jar:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3890) ~[javafx-graphics-14-win.jar:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1885) ~[javafx-graphics-14-win.jar:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2618) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299) ~[javafx-graphics-14-win.jar:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:556) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:942) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174) ~[javafx-graphics-14-win.jar:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+11:40:01.150 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+11:40:01.151 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+11:40:01.151 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+11:40:01.151 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas son detenidas
+11:40:02.980 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas son eliminadas
+11:40:52.968 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga ttyhsrtyhr creada
+11:40:57.500 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga ttyhsrtyhr detenida
+11:41:04.425 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga ttyhsrtyhr iniciada
+11:41:04.427 [JavaFX Application Thread] ERROR com.sanvalero.multidescarga.DownloaderController - URL mal formada
+java.net.MalformedURLException: no protocol: ttyhsrtyhr
+	at com.sanvalero.multidescarga.DownloaderController.start(DownloaderController.java:111) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76) ~[javafx-base-11.0.2-win.jar:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83) ~[javafx-fxml-14-win.jar:?]
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1784) ~[javafx-fxml-14-win.jar:?]
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1670) ~[javafx-fxml-14-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx-base-11.0.2-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-11.0.2-win.jar:?]
+	at javafx.scene.Node.fireEvent(Node.java:8885) ~[javafx-graphics-14-win.jar:?]
+	at javafx.scene.control.Button.fire(Button.java:203) ~[javafx-controls-14-win.jar:?]
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:206) ~[javafx-controls-14-win.jar:?]
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[javafx-controls-14-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:218) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx-base-11.0.2-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-11.0.2-win.jar:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3890) ~[javafx-graphics-14-win.jar:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1885) ~[javafx-graphics-14-win.jar:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2618) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299) ~[javafx-graphics-14-win.jar:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:556) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:942) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174) ~[javafx-graphics-14-win.jar:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+11:41:09.720 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga ttyhsrtyhr iniciada
+11:41:09.723 [JavaFX Application Thread] ERROR com.sanvalero.multidescarga.DownloaderController - URL mal formada
+java.net.MalformedURLException: no protocol: ttyhsrtyhr
+	at com.sanvalero.multidescarga.DownloaderController.start(DownloaderController.java:111) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76) ~[javafx-base-11.0.2-win.jar:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83) ~[javafx-fxml-14-win.jar:?]
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1784) ~[javafx-fxml-14-win.jar:?]
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1670) ~[javafx-fxml-14-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx-base-11.0.2-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-11.0.2-win.jar:?]
+	at javafx.scene.Node.fireEvent(Node.java:8885) ~[javafx-graphics-14-win.jar:?]
+	at javafx.scene.control.Button.fire(Button.java:203) ~[javafx-controls-14-win.jar:?]
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:206) ~[javafx-controls-14-win.jar:?]
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[javafx-controls-14-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:218) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx-base-11.0.2-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-11.0.2-win.jar:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3890) ~[javafx-graphics-14-win.jar:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1885) ~[javafx-graphics-14-win.jar:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2618) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299) ~[javafx-graphics-14-win.jar:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:556) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:942) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174) ~[javafx-graphics-14-win.jar:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+11:41:17.849 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga ttyhsrtyhr iniciada
+11:41:17.852 [JavaFX Application Thread] ERROR com.sanvalero.multidescarga.DownloaderController - URL mal formada
+java.net.MalformedURLException: no protocol: ttyhsrtyhr
+	at com.sanvalero.multidescarga.DownloaderController.start(DownloaderController.java:111) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:76) ~[javafx-base-11.0.2-win.jar:?]
+	at jdk.internal.reflect.GeneratedMethodAccessor2.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:273) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:83) ~[javafx-fxml-14-win.jar:?]
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1784) ~[javafx-fxml-14-win.jar:?]
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1670) ~[javafx-fxml-14-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx-base-11.0.2-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-11.0.2-win.jar:?]
+	at javafx.scene.Node.fireEvent(Node.java:8885) ~[javafx-graphics-14-win.jar:?]
+	at javafx.scene.control.Button.fire(Button.java:203) ~[javafx-controls-14-win.jar:?]
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:206) ~[javafx-controls-14-win.jar:?]
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[javafx-controls-14-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:218) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:238) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-11.0.2-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx-base-11.0.2-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-11.0.2-win.jar:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3890) ~[javafx-graphics-14-win.jar:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1885) ~[javafx-graphics-14-win.jar:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2618) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:409) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:299) ~[javafx-graphics-14-win.jar:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:447) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:412) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:446) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:556) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:942) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[javafx-graphics-14-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174) ~[javafx-graphics-14-win.jar:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+12:02:02.265 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Aplicacion abierta
+12:02:15.037 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga sdsdf creada
+12:02:20.353 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga sdsdf eliminada
+12:02:35.212 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga ghdhgdhds creada
+12:02:39.355 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga ghdhgdhds eliminada
+12:02:43.960 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+12:02:43.960 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+12:02:43.960 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas son detenidas
+12:02:44.710 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas son eliminadas
+12:03:11.426 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+12:03:11.426 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+12:03:11.426 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas son detenidas
+12:03:12.261 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas son eliminadas
+12:03:14.886 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga fsdgd creada
+12:03:16.833 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga gasgfdg creada
+12:03:22.192 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga fsdgd detenida
+12:03:23.218 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga fsdgd eliminada
+12:03:26.146 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+12:03:26.146 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+12:03:26.146 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+12:03:26.146 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+12:03:26.146 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas son detenidas
+12:03:26.613 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas son eliminadas
+12:03:40.628 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Configurada ruta de descarga
+12:03:53.275 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga mjgdh creada
+12:04:26.570 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga hrh creada
+12:04:32.759 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga hrh eliminada
+12:04:36.697 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga hhrthtrhr creada
+12:04:41.153 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga mjgdh eliminada
+12:04:46.178 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+12:04:46.178 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+12:04:46.178 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+12:04:46.178 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+12:04:46.178 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+12:04:46.179 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+12:04:46.179 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+12:04:46.179 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas son detenidas
+12:04:47.883 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas son eliminadas
+12:04:52.422 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Eliminada ruta de descarga configurada
+12:04:58.863 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Eliminada ruta de descarga configurada
+12:11:10.221 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Aplicacion abierta
+12:11:21.896 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga hjhjhgj creada
+12:12:54.249 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Aplicacion abierta
+12:13:02.207 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga gafga creada
+12:13:06.848 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga sgga creada
+12:13:43.573 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+12:13:43.573 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+12:13:43.573 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas son detenidas
+12:13:45.428 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas son eliminadas
+12:14:54.994 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Aplicacion abierta
+12:14:59.806 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga dhdh creada
+12:15:15.613 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga dgfhsfh creada
+12:15:18.808 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga hsrth creada
+12:15:36.426 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Configurada ruta de descarga
+12:15:40.328 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga fghgrfh creada
+12:16:03.497 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+12:16:03.497 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+12:16:03.498 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+12:16:03.498 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+12:16:03.498 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas son detenidas
+12:16:04.132 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas son eliminadas
+12:16:27.617 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga jtjdt creada
+12:29:00.338 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Aplicacion abierta
+12:29:05.809 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga gfdv creada
+12:29:15.749 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga dsg creada
+21:53:06.987 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+21:53:23.322 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga dgbdsfg creada
+21:53:27.005 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga cv bcs creada
+21:57:38.287 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+21:58:07.474 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Configurada ruta de descarga
+21:58:09.052 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.82.tar.xz creada
+21:58:21.658 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.82.tar.xz iniciada
+21:58:21.662 [Thread-3] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.82.tar.xz iniciada
+21:58:35.517 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.82.tar.xz detenida
+21:58:35.520 [Thread-3] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.82.tar.xz cancelada
+21:58:38.752 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga tryhtre creada
+21:58:44.638 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+21:58:44.638 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+21:58:44.639 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Todas las descargas son detenidas
+21:58:46.310 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Todas las descargas son eliminadas
+21:58:52.865 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga fgweg creada
+21:58:54.783 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga gferqg creada
+21:59:07.161 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+21:59:07.161 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+21:59:07.161 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+21:59:07.161 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+21:59:07.162 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Todas las descargas son detenidas
+21:59:12.405 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Todas las descargas son eliminadas
+16:52:07.359 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+16:54:25.551 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+16:56:02.319 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+16:56:18.045 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga fddfg creada
+16:58:14.502 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+18:59:00.197 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+19:01:46.040 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+19:03:43.827 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+19:09:35.870 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+19:12:35.355 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+20:47:20.687 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+20:47:32.121 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga ggcgc creada
+20:51:21.866 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+20:56:29.247 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+21:01:30.680 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+21:10:16.942 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+21:12:33.035 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+21:12:52.618 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga kgjhg creada
+21:14:07.883 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+21:30:37.022 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+21:31:20.333 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga qdcfwcf creada
+21:38:50.543 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+21:39:23.028 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga hsgfhs creada
+21:49:29.899 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+21:49:54.557 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga sdfvsdf creada
+21:51:10.834 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+21:54:57.352 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga fdgdfg creada
+21:57:26.682 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+22:08:45.984 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+22:09:37.622 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga ghgs creada
+22:10:50.276 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+22:11:11.945 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga hghghs creada
+22:19:26.182 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+22:21:56.361 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+22:26:58.835 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+22:29:09.525 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+22:35:53.168 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+22:36:34.330 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+22:37:19.656 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+22:42:21.499 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+22:42:37.704 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga DSFF creada
+22:42:42.117 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga DFDSAF creada
+22:42:50.919 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+22:42:50.920 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+22:42:50.920 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Todas las descargas son detenidas
+22:42:51.588 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Todas las descargas son eliminadas

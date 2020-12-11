@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox fx:id="vbSplash" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="571.0" prefWidth="830.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" ellipsisString="center" prefHeight="53.0" prefWidth="200.0" text="WELLCOME" textFill="#fbff00" textOverrun="CLIP">
+         <VBox.margin>
+            <Insets left="305.0" top="200.0" />
+         </VBox.margin>
+         <font>
+            <Font name="Terminator Two" size="30.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" prefHeight="40.0" prefWidth="200.0" text="TO" textFill="#fbff00">
+         <VBox.margin>
+            <Insets left="301.0" />
+         </VBox.margin>
+         <font>
+            <Font name="Terminator Two" size="28.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" prefHeight="50.0" prefWidth="228.0" text="DOWNLOADER" textFill="#fbff00">
+         <VBox.margin>
+            <Insets left="291.0" />
+         </VBox.margin>
+         <font>
+            <Font name="Terminator Two" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</VBox>
