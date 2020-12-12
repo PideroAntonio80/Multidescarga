@@ -15,9 +15,9 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="874.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="772.0" prefWidth="906.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <content>
-      <VBox fx:id="panel" prefHeight="649.0" prefWidth="868.0" style="-fx-background-color: lightblue;">
+      <VBox fx:id="panel" prefHeight="779.0" prefWidth="908.0" style="-fx-background-color: lightblue;">
          <children>
             <MenuBar>
               <menus>
@@ -188,14 +188,55 @@
                   <Insets left="10.0" />
                </VBox.margin>
             </HBox>
-            <TextArea fx:id="taLogger" maxHeight="1.7976931348623157E308" prefHeight="95.0" prefWidth="828.0">
+            <HBox prefHeight="100.0" prefWidth="904.0">
+               <children>
+                  <VBox prefHeight="100.0" prefWidth="169.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#mostrarLog" prefHeight="32.0" prefWidth="144.0" style="-fx-background-color: #5D53F7;" text="MOSTRAR .LOG" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font>
+                           <effect>
+                              <DropShadow>
+                                 <input>
+                                    <InnerShadow />
+                                 </input>
+                              </DropShadow>
+                           </effect>
+                           <VBox.margin>
+                              <Insets left="20.0" top="8.0" />
+                           </VBox.margin>
+                        </Button>
+                        <Button mnemonicParsing="false" onAction="#ocultarLog" prefHeight="32.0" prefWidth="144.0" style="-fx-background-color: #EE465A;" text="OCULTAR .LOG" textFill="WHITE">
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font>
+                           <effect>
+                              <DropShadow>
+                                 <input>
+                                    <InnerShadow />
+                                 </input>
+                              </DropShadow>
+                           </effect>
+                           <VBox.margin>
+                              <Insets left="20.0" top="12.0" />
+                           </VBox.margin>
+                        </Button>
+                     </children>
+                  </VBox>
+                  <TextArea fx:id="taLogger" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="98.0" prefWidth="686.0">
+                     <HBox.margin>
+                        <Insets left="30.0" />
+                     </HBox.margin>
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                  </TextArea>
+               </children>
+            </HBox>
+            <VBox fx:id="vbLayoutDownlader" alignment="CENTER" prefHeight="342.0" prefWidth="908.0">
                <VBox.margin>
-                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-               </VBox.margin>
-            </TextArea>
-            <VBox fx:id="vbLayoutDownlader" alignment="CENTER" prefHeight="164.0" prefWidth="868.0">
-               <VBox.margin>
-                  <Insets top="50.0" />
+                  <Insets top="30.0" />
                </VBox.margin></VBox>
          </children>
       </VBox>

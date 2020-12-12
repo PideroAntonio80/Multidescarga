@@ -51,8 +51,6 @@ public class AppController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         btEliminarTodo.setDisable(true);
-        //readLogger();
-        //readerLog();
 
     }
 
@@ -84,8 +82,6 @@ public class AppController implements Initializable {
             btEliminarTodo.setDisable(false);
         }
         logger.trace("Todas las descargas son detenidas");
-        //readLogger();
-        //readerLog();
     }
 
     @FXML
@@ -94,8 +90,6 @@ public class AppController implements Initializable {
         btEliminarTodo.setDisable(true);
         contadorMaxDescargas = 0;
         logger.trace("Todas las descargas son eliminadas");
-        //readLogger();
-        //readerLog();
     }
 
     @FXML
@@ -105,16 +99,12 @@ public class AppController implements Initializable {
         String directorio = fileDir.getAbsolutePath();
         lnombreUbicacion.setText(directorio);
         logger.trace("Configurada ruta de descarga");
-        //readLogger();
-        //readerLog();
     }
 
     @FXML
     public void btBorrarSeleccion() {
         lnombreUbicacion.setText("");
         logger.trace("Eliminada ruta de descarga configurada");
-        //readLogger();
-        //readerLog();
     }
 
     @FXML
@@ -127,9 +117,18 @@ public class AppController implements Initializable {
         } catch (IOException ioe) {
             ioe.printStackTrace();
             logger.error("Error al leer el archivo", ioe.fillInStackTrace());
-            //readLogger();
-            //readerLog();
         }
+    }
+
+    @FXML
+    public void mostrarLog() {
+        taLogger.setText("");
+        readingLogger();
+    }
+
+    @FXML
+    public void ocultarLog() {
+        taLogger.setText("");
     }
 
     public void launchDownload(String url) {
@@ -144,44 +143,22 @@ public class AppController implements Initializable {
 
             downloads.add(downloaderController);
             contador++;
-            //readLogger();
-            //readerLog();
         } catch (IOException ioe) {
             ioe.printStackTrace();
         }
     }
-    /*public void readLogger() {  TODO ESTE LEE Y MUESTRA EL .LOG PERO ME CUELGA EL ORDENADOR. PROBLEMA EN BUCLE WHILE SUPONGO
-        StringBuilder linea = new StringBuilder();
-        String path ="multidescarga.log";
-        File archivo = new File(path);
-        FileReader fr = null;
-        BufferedReader entrada = null;
-        try {
-            fr = new FileReader(archivo);
-            entrada = new BufferedReader(fr);
 
-            while(entrada.ready()){
-                taLogger.appendText(linea + "\n");
-                linea.append(entrada.readLine());
-            }
-        }catch(IOException e) {
-            e.printStackTrace();
-        }
-    }*/
-
-    /*public void readerLog() {  TODO ESTE NO ME PINTA NI SIQUIERA NADA
+    public void readingLogger() {
         try {
-            String text = "";
             String path ="multidescarga.log";
             File archivo = new File(path);
-            List<String> linea = Files.readAllLines(archivo.toPath());
-            for (String texto : linea) {
-                text += texto;
-                taLogger.setText(text);
-
+            BufferedReader leer = new BufferedReader(new FileReader(archivo));
+            String linea = leer.readLine();
+            while (linea != null) {
+                taLogger.appendText(linea + "\n");
+                linea = leer.readLine();
             }
-        } catch (IOException e) {
-            e.printStackTrace();
+        } catch(Exception e) {
         }
-    }*/
+    }
 }

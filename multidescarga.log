@@ -627,3 +627,32 @@ java.net.MalformedURLException: no protocol: ttyhsrtyhr
 22:42:50.920 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
 22:42:50.920 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Todas las descargas son detenidas
 22:42:51.588 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Todas las descargas son eliminadas
+23:10:43.211 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+23:10:59.899 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga gggggg creada
+23:21:13.955 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+23:21:32.380 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga aaaaaa creada
+23:21:55.578 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.82.tar.xz creada
+23:22:09.418 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.82.tar.xz iniciada
+23:22:09.421 [Thread-3] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.82.tar.xz iniciada
+23:22:26.569 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.82.tar.xz detenida
+23:22:26.570 [Thread-3] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.82.tar.xz cancelada
+23:22:29.704 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+23:22:29.705 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+23:22:29.705 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Todas las descargas son detenidas
+23:22:32.318 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+23:22:32.318 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+23:22:32.318 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Todas las descargas son detenidas
+23:22:39.623 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Todas las descargas son eliminadas
+23:22:43.154 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+23:22:43.154 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+23:22:43.155 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Todas las descargas son detenidas
+23:22:49.314 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Todas las descargas son eliminadas
+14:30:46.162 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+14:32:15.386 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+14:32:42.835 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga prueba log descarga falsa creada
+14:33:24.383 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
+14:34:49.692 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Descarga hola Berta esta es una descarga falsa para probar el Mostrar log creada
+14:34:58.905 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.DownloaderController - Todas las descargas detenidas
+14:34:58.906 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Todas las descargas son detenidas
+14:35:00.037 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Todas las descargas son eliminadas
+14:42:30.084 [JavaFX Application Thread] TRACE com.sanvalero.multidescarga.AppController - Aplicacion abierta
