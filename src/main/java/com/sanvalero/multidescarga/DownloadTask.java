@@ -49,7 +49,7 @@ public class DownloadTask extends Task<Integer> {
             updateProgress(downloadProgressMegas, fileSizeInMegas);
 
             updateProgress(downloadProgress, 1);
-            updateMessage(Math.round(downloadProgress * 100) + " %" + "_____________________" + (Math.round(downloadProgressMegas) + " Mb    de    " + fileSizeInMegas));
+            updateMessage(Math.round(downloadProgress * 100) + " %" + "_____________________" + (int) downloadProgressMegas / 10000 + " Mb    de    " + (int) fileSizeInMegas + " Mb");
 
             fileOutputStream.write(dataBuffer, 0, bytesRead);
             totalRead += bytesRead;
@@ -60,7 +60,7 @@ public class DownloadTask extends Task<Integer> {
         }
 
         updateProgress(1, 1);
-        updateMessage("100 %" + fileSizeInMegas);
+        updateMessage("100 %" + "______de_____" + "Total megas descargados: " + (int) fileSizeInMegas + "Mb");
 
         logger.trace("Descarga " + url.toString() + " finalizada");
         return null;
